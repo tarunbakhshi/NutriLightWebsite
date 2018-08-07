@@ -54,8 +54,8 @@ body { font-family: sans-serif; }
 }
 
 .carousel-cell {
-  width: 70%;
-  height: 200px;
+  width: 50%;
+  /*height: 200px;*/
   /* flex-box, center image in cell */
   display: -webkit-box;
   display: -webkit-flex;
@@ -70,7 +70,7 @@ body { font-family: sans-serif; }
 .carousel-cell img {
   display: block;
   max-width: 100%;
-  max-height: 100%;
+  /*max-height: 100%;*/
   /* dim unselected */
   opacity: 0.7;
   -webkit-transform: scale(0.85);
@@ -79,6 +79,7 @@ body { font-family: sans-serif; }
           filter: blur(5px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+
 }
 
 /* brighten selected image */
@@ -251,16 +252,57 @@ body { font-family: sans-serif; }*/
       
     .title{
       color:blue;
+    
     }
     
-    .pass{
-
+  /*LEARN SECTION CSS*/ 
+      
+  *{
+    box-sizing: border-box;
     }
+
+
+  /*.row{
+    margin:10px;
+  }*/
+
+  .column{
+    float: left;
+    width: 25%;
+  }
+
+  .row:after {
+
+    display: table;
+    clear: both;
+  }
+
+  .capt{
+    background-color: lightgrey;
+     
+    margin: 10px;
+  }
+
+   /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+} 
+   
       
 
-  /*LEARN SECTION CSS*/
+    
 
-    .learn{
+    
+    ./*learn{
       padding: 10px;
       margin: 5px;
     }
@@ -271,15 +313,7 @@ body { font-family: sans-serif; }*/
     
     .capt{
       width: 33.33%;
-    } 
-
-    
-   
-      
-
-    
-
-    
+    } */
      
   
 
