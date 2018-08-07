@@ -18,12 +18,18 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 	font-family: 'Great Vibes', cursive;
   font-family: 'Didact Gothic', sans-serif;
     
+   
+
     img{
     max-width:100%;
     }
+   
+    .wrapper{
     
+    }
+
     .heading{
-      padding:5px;
+      /*padding:15px; */
     }
       
 
@@ -33,7 +39,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     	font-size: 40px;
     	font-weight: inherit;
     	background-color:;
-      padding: 20px;
+      /*padding: 20px;*/
       height: auto;
     }
 
@@ -106,20 +112,25 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:hover {
   background: transparent;
   opacity: 1;
+
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: white;
+  fill: grey;
+
 }
 .flickity-prev-next-button.no-svg {
-  color: white;
+  color: grey;
+
 }
 /* closer to edge */
 .flickity-prev-next-button.previous { left: 0; }
 .flickity-prev-next-button.next { right: 0; }
 /* hide disabled button */
 .flickity-prev-next-button:disabled {
-  display: none;
+  display: grey;
+  background-color: red;
+
 }
 
 
@@ -162,6 +173,19 @@ body { font-family: sans-serif; }*/
   width: 100%;*/
 /*}*/
 
+    .name{
+      /*background-color: #DB5461;*/
+      padding:5px;
+    }
+    .apple{
+      border-radius: 30%; 
+      width: 5%;
+      margin:5px; 
+
+      
+    }
+
+    
     .para{
     	color:red;
       font-family: 'Didact Gothic', sans-serif;
@@ -178,33 +202,85 @@ body { font-family: sans-serif; }*/
       width: 50%;
     }
       
-    
+    /*SOCIAL MEDIA BEGINS HERE:;*/
 
     .socialmedia a{
       padding: 30px;
-      background: beige;
-      
       width: 30px;
       height: 20px;
       color:;
     }
 
+      /*NAVBAR BEGINS*/
     
   	.navbar{
   		list-style-type: none;
       display: inline-block;
       flex-direction:row;
       float: right;
+
     }
 
     .navbar a {
       text-decoration: none;
-      padding: 30px;
+      padding: 20px;
     }
+      
+    /*ALL HEADINGS COLOR*/
+  
+    .main{
+      color:#58A4B0;
+    }
+    /*ABOUT SECTION CSS*/
 
+    .bout{
+      padding: 10px;
+      margin: 5px;
+    }
+   .pic{
+      border-radius: 50%;
+      float: left;
+      padding: 20px;
+      margin :10px;
+    }
+    
+    .myname{
+      font-size: 20px;
+      color:blue;
+    }
+      
+    .title{
+      color:blue;
+    }
+    
+    .pass{
 
+    }
+      
+
+  /*LEARN SECTION CSS*/
+
+    .learn{
+      padding: 10px;
+      margin: 5px;
+    }
+     
+    .image{
+      float: left;
+    }
+    
+    .capt{
+      width: 33.33%;
+    } 
 
     
+   
+      
+
+    
+
+    
+     
   
 
 
@@ -223,24 +299,8 @@ body { font-family: sans-serif; }*/
       margin:10px;
     }
           
-   .pic{
-      border-radius: 50%;
-      float: left;
-      padding: 20px;
-      margin: 10px; 
 
-    }
-
-    .myname{
-      font-size: 20px;
-      color:blue;
-    }
-      
     
-    .title{
-      color:blue;
-    }
-     
 
 
     .main{
