@@ -25,7 +25,8 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     }
    
     .wrapper{
-    
+      max-width: 1080px;
+      margin: 0 auto;
     }
 
     .heading{
@@ -181,10 +182,10 @@ body { font-family: sans-serif; }*/
     .apple{
       border-radius: 30%; 
       width: 5%;
-      margin:5px; 
+      margin:0 auto; 
+    }
 
       
-    }
 
     
     .para{
@@ -232,6 +233,7 @@ body { font-family: sans-serif; }*/
     .main{
       color:#58A4B0;
     }
+
     /*ABOUT SECTION CSS*/
 
     .bout{
@@ -260,6 +262,15 @@ body { font-family: sans-serif; }*/
   *{
     box-sizing: border-box;
     }
+
+  .column{
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+ 
 
 
   /*.row{
@@ -304,87 +315,3 @@ body { font-family: sans-serif; }*/
     }
 } 
    
-   /* .image{
-      float: left;
-      width: 50%;
-    }
-      */
-
-    
-
-    
-    ./*learn{
-      padding: 10px;
-      margin: 5px;
-    }
-     
-    
-    .capt{
-      width: 33.33%;
-    } */
-     
-  
-
-
-
-    
-  
-
-
-
-    
-    /*a:hover{
-      background:lightblue;
-    }
-/*
-    .section{
-      margin:10px;
-    }
-          
-
-    
-
-
-    .main{
-      color:red;
-      /*font-size: 20px;*/
-     /* background-color: lightgrey;
-      margin: 0px;
-    }
-      
-    .car{
-      background:beige;
-    }
-
-    .car p{
-     display: block;
-    }
-
-    .lean{
-      background:beige;
-      color:red;
-    }
-      
-    .team{
-      background:beige;
-    } 
-    
-    
-
-    .meals{
-      display: flex;
-      flex-direction: row;
-
-    }
-      
-    
-    .kids{
-      background:beige;
-
-
-      }
-    
-*/
-
-
-    

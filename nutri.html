@@ -3,7 +3,7 @@
 <head>
 		<meta charset="UTF-8">
 		<!-- need to add viewport -->
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Nutrilight</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +15,7 @@
 </head>
 
 		<body class="wrapper">
+			<div class="wrapper">
 			<header class="heading">
 			
 			<div>
@@ -105,7 +106,7 @@
 
 <section>
 
-		<div class="wrapper clearfix">
+		<div class="wrapper">
 			
 			<div class="learn">
 				<h2 class="main" id="LEARN">LEARN</h2>
@@ -129,6 +130,19 @@
 			</div>
 		</div>	
 				
+		<div class="column">
+			<div class="image">
+				<img src="assets/healthcircle.jpeg" alt="meal prep">
+				<figcaption class="capt" >Learn food groups</figcaption>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="image">
+				<img src="assets/breakfast.jpeg" alt="meal prep">
+				<figcaption class="capt" >Start your day right</figcaption>
+			</div>
+		</div>
 				
 	
 		<div class="column">
@@ -138,30 +152,36 @@
 			</div>
 		</div>
 
+
+		
+
 		<div class="column">
 			<div class="image">
-				<img src="assets/foodprep2.jpeg"  width="2" height="170"alt="meal prep">
+				<img src="assets/foodprep2.jpeg" alt="meal prep">
 				<figcaption class="capt" >We design all day meals</figcaption>
 			</div>
 		</div>
 	</div>
+</section>	
 			
 
-	</section>	
-
-	<section>
-			<div class="">
-				<h2 class="main" id="OURTEAM">OUR TEAM</h2>
-				<caption class="capt">Our team of profesionals are more than happy to meet with you and make your goals of becoming healthy a reality.</caption>
+			
+<section>
+		<div>
+			<h2 class="main" id="OURTEAM">OUR TEAM</h2>
+		</div>
+			<div>
 				<img src="assets/team.jpeg">
+					<figcaption class="capt">Our team of profesionals are more than happy to meet with you and make your goals of becoming healthy a reality.</figcaption>
 			</div>
 				
 		<div class="">
-			<img src="assets/cookingclass.jpeg" alt=" cooking class"> 
-			<caption class="">Our inhouse chefs will walk with you to achieve your goals</caption>
+				<img src="assets/cookingclass.jpeg" alt=" cooking class"> 
+			<figcaption class="capt">Our inhouse chefs will walk with you to achieve your goals</figcaption>
 		</div>
 
-	</section>	
+	</div>
+</section>	
 
 	<section class="">
 
@@ -200,13 +220,13 @@
 		</div>
 
 	</div>
-	
 	</section>	
-		
+	
 		</main>
+		
 
 	<footer>
-	
+		
 		<section>
 			<h2 class="main" id="CONTACT US">CONTACT US</h2>
 
@@ -216,15 +236,35 @@
 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 			<li><a href="#"><i class="fa fa-google"></i></a></li>
-
 		</div>
+
+			
+		<div>
 			<form action="sendEmail.php" method="POST" name="myForm">
 
-		<div>
-		    <input type="text" name="firstName" placeholder="FirstName" required="true">
-		</div>
+		<h1>Please Fill Out Form</h1>
 
-		<div>
+		<label for="FirstName">*FirstName </label>
+		<input type="text" id="	FirstName" name="FirstName" 
+		  placeholder=" EnterFirstName" required="required">
+
+		<label for="LastName">*LastName</label>
+		<input type="text" id="LastName" name="LastName" placeholder="EnterLastName" required="true">
+		
+		<label for="PhoneNumber">*PhoneNumber</label>
+		<input type="text" id="PhoneNumber" placeholder="Enter Phone Number" required="true">
+		
+		<label for="E-mail">*E-mail</label>
+		<input type="E-mail" id="E-mail" placeholder="EnterE-mailAddress">
+	</div>
+	
+			
+		
+		<!-- <div>
+		    <input type="text" name="firstName" placeholder="FirstName" required="true">
+		</div> -->
+
+		<!-- <div>
 		    <input type="text" name="lastName"  placeholder="LastName" required="true">
 		</div>
 
@@ -234,7 +274,7 @@
 
 		<div>
 		   	<input type="email" name="emailAddress" placeholder="Please enter your email address">
-		</div>	
+		</div> -->
 		
 		<div class="wrapper clearfix">
 			<p>Please select how we may contact you.</p>
@@ -245,17 +285,19 @@
 			<label for="Phone">Phone</label>
 			<input type="checkbox" id="phone" name="phone" value="phone" checked>
 
-			<label for="Walk-In">walk-in</label>
+			<label for="Walk-In">Walk-in</label>
 			<input type="checkbox" id="walkin" name="walkin" value="walkin">
 			
 			<input type="submit" value="Click me to Complete!">
 		</div>	
 		
-	</form>
-</section>
-
+		</form>
+	</section>
+		<p>&copy Made By Tarun Bakhshi</p>
+		</div>
+	</div>
 </footer>
-
+	
 </body>
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="/path/to/flickity.pkgd.min.js"></script>
