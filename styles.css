@@ -59,6 +59,8 @@ body { font-family: sans-serif; }
 .carousel-cell {
   /*width: 50%;*/
   /*height: 200px;*/
+  margin:20px;
+  padding: 10px;
   /* flex-box, center image in cell */
   background-color:#DCEED1;
   display: -webkit-box;
@@ -246,14 +248,15 @@ body { font-family: sans-serif; }*/
     .main{
       color:#58A4B0;
       padding: 5px;
-      
+
     }
 
     /*ABOUT SECTION CSS*/
 
     .bout{
       padding: 10px;
-      margin: 5px;
+      margin: 10px;
+      background-color: lightgrey;
     }
    .pic{
       border-radius: 50%;
