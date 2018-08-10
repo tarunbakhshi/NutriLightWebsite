@@ -30,7 +30,8 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     }
 
     .heading{
-      /*padding:15px; */
+      margin: 3px;
+      padding: 4px;
     }
       
 
@@ -214,7 +215,8 @@ body { font-family: sans-serif; }*/
     .socialmedia a{
       padding :15px;
       width: 10px;
-      /*height: 10px;*/
+      margin:10px;
+      
       color:grey;
     }
 
@@ -225,6 +227,8 @@ body { font-family: sans-serif; }*/
       display: inline-block;
       flex-direction:row;
       float: right;
+      padding: 5px;
+      margin: 2px;
 
     }
 
