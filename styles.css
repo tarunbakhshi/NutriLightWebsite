@@ -24,6 +24,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     max-width:100%;
     }
    
+      /*THIS WILL WRAP EVERYOTHER ELEMENT IN THE PAGE*/
     .wrapper{
       max-width: 1080px;
       margin: 0 auto;
@@ -46,7 +47,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     }
 
  
-
+      /*FLICKETY STARTS HERE BELOW*/
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
@@ -244,6 +245,8 @@ body { font-family: sans-serif; }*/
   
     .main{
       color:#58A4B0;
+      padding: 5px;
+      
     }
 
     /*ABOUT SECTION CSS*/
