@@ -59,8 +59,8 @@ body { font-family: sans-serif; }
 .carousel-cell {
   /*width: 50%;*/
   /*height: 200px;*/
-  margin:20px;
-  padding: 10px;
+  margin:15px;
+  /*padding: 5px;*/
   /* flex-box, center image in cell */
   background-color:#DCEED1;
   display: -webkit-box;
@@ -219,9 +219,9 @@ body { font-family: sans-serif; }*/
       padding :15px;
       width: 10px;
       margin:10px;
-      
       color:grey;
     }
+      
 
       /*NAVBAR BEGINS*/
     
@@ -242,37 +242,46 @@ body { font-family: sans-serif; }*/
       margin: 2px;
       color:#92BDA3;
     }
+
+      /*NAVBAR ENDS HERE*/
       
-    /*ALL HEADINGS COLOR*/
+    /*ALL HEADINGS  CSS & COLOR*/
   
     .main{
       color:#58A4B0;
-      padding: 5px;
+      padding: 15px;
+
 
     }
 
     /*ABOUT SECTION CSS*/
 
+    
+
     .bout{
-      padding: 10px;
+      padding:10px;
       margin: 10px;
-      background-color: lightgrey;
     }
+    
+    
    .pic{
       border-radius: 50%;
       float: left;
-      padding: 20px;
-      margin :10px;
+      padding: 30px;
+      margin :20px;
     }
     
     .myname{
       font-size: 20px;
-      color:blue;
+      color:#A4B8C4;
     }
       
     .title{
-      color:blue;
+      color:#A4B8C4;
+    }
     
+    .pass{
+        font-family: 'Didact Gothic', sans-serif;
     }
     
   /*LEARN SECTION CSS*/ 
