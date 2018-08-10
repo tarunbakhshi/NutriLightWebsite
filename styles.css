@@ -176,7 +176,7 @@ body { font-family: sans-serif; }*/
 /*}*/
 
     .name{
-      /*background-color: #DB5461;*/
+      background-color: #DB5461;
       padding:5px;
     }
     .apple{
@@ -207,8 +207,8 @@ body { font-family: sans-serif; }*/
     /*SOCIAL MEDIA BEGINS HERE:;*/
 
     .socialmedia a{
-      padding: 30px;
-      width: 30px;
+      padding: 20px;
+      width: 15px;
       height: 20px;
       color:;
     }
@@ -225,7 +225,7 @@ body { font-family: sans-serif; }*/
 
     .navbar a {
       text-decoration: none;
-      padding: 20px;
+      padding: 5px;
     }
       
     /*ALL HEADINGS COLOR*/
