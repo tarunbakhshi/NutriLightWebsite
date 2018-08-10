@@ -285,29 +285,28 @@ body { font-family: sans-serif; }*/
     }
     
     
-  /*LEARN SECTION CSS*/ 
-      
-  *{
-    box-sizing: border-box;
-    }
-
-
-  
-  .column{
-     float: left;
-     clear: all;
-      width: 33%;
-      margin: 0;
-      padding: 0;
-      position: relative;
-  }
+    /*LEARN SECTION BEGINS IT IS GOING TO BE A FLEXBOX*/
  
-      /*LEARN SECTION ENDS HERE*/
-
+     .flexcontainer{
+      display: flex;
+      background-color: beige;
+     }
+      
+    .flex{
+      width: 33.33%;
+      padding: 20px;
+      margin: 5px;
+    }
+      
+    .capt{
+      padding: 3px; 
+    }
+                    
+/*
   .team{
     color:#58A4B0;
-    /*padding:30px;*/
-  }
+    }
+  */
 
   
 
