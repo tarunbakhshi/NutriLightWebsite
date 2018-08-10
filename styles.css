@@ -249,7 +249,7 @@ body { font-family: sans-serif; }*/
   
     .main{
       color:#58A4B0;
-      padding: 15px;
+      /*padding: 15px;*/
 
 
     }
@@ -301,9 +301,50 @@ body { font-family: sans-serif; }*/
     }
       
      
-      
+                    /*OUR TEAM SECTION BEGINGS HERE*/
+    
+    .box{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+    }
 
-  
+
+                    /*OUR TEAM SECTION ENDS HERE*/
+
+
+                    /*KIDS CORNER STARTS*/
+      
+      ul li{
+        list-style-type: none;
+      }
+
+
+      li {
+      float: left;
+      width: 33%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+     .fig{
+      display: none;
+    }
+    
+    li:hover figure figcaption{
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 20%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
 
    /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -320,6 +361,12 @@ body { font-family: sans-serif; }*/
 } 
 
  
+    
+    
+ 
+
+
+   
 
   
   
