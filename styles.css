@@ -180,7 +180,9 @@ body { font-family: sans-serif; }*/
       padding:5px;
     }
     .apple{
-      border-radius: 30%; 
+      border-radius: 50%;
+      padding: 2px;
+      float: right;
       width: 5%;
       margin:0 auto; 
     }
