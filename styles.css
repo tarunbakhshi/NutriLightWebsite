@@ -50,14 +50,15 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 body { font-family: sans-serif; }
 
-.carousel {
+/*.carousel {
   background: black;
-}
+}*/
 
 .carousel-cell {
-  width: 50%;
+  /*width: 50%;*/
   /*height: 200px;*/
   /* flex-box, center image in cell */
+  background-color:#DCEED1;
   display: -webkit-box;
   display: -webkit-flex;
   display:         flex;
@@ -119,10 +120,12 @@ body { font-family: sans-serif; }
 /* arrow color */
 .flickity-prev-next-button .arrow {
   fill: grey;
+  
 
 }
 .flickity-prev-next-button.no-svg {
   color: grey;
+
 
 }
 /* closer to edge */
