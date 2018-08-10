@@ -203,16 +203,16 @@ body { font-family: sans-serif; }*/
     	flex-direction: row;
     	font-size: 20px;
       float: left;
-      width: 50%;
+      
     }
       
     /*SOCIAL MEDIA BEGINS HERE:;*/
 
     .socialmedia a{
-      padding: 20px;
-      width: 15px;
-      height: 20px;
-      color:;
+      padding :15px;
+      width: 10px;
+      /*height: 10px;*/
+      color:grey;
     }
 
       /*NAVBAR BEGINS*/
@@ -227,7 +227,9 @@ body { font-family: sans-serif; }*/
 
     .navbar a {
       text-decoration: none;
+      font-size: 15px;
       padding: 5px;
+      margin: 2px;
     }
       
     /*ALL HEADINGS COLOR*/
