@@ -289,24 +289,19 @@ body { font-family: sans-serif; }*/
  
      .flexcontainer{
       display: flex;
-      background-color: beige;
+      flex-direction: row;
+      
      }
       
     .flex{
-      width: 33.33%;
+      width: 50%;
+      margin: 20px;
       padding: 20px;
-      margin: 5px;
+      text-align: center;
     }
       
-    .capt{
-      padding: 3px; 
-    }
-                    
-/*
-  .team{
-    color:#58A4B0;
-    }
-  */
+     
+      
 
   
 
