@@ -27,6 +27,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     .wrapper{
       max-width: 1080px;
       margin: 0 auto;
+      /*background-color: beige;*/
     }
 
     .heading{
@@ -55,9 +56,10 @@ body { font-family: sans-serif; }
 }
 
 .carousel-cell {
-  width: 50%;
+  /*width: 50%;
   /*height: 200px;*/
-  /* flex-box, center image in cell */
+
+   flex-box, center image in cell 
   display: -webkit-box;
   display: -webkit-flex;
   display:         flex;
@@ -68,11 +70,12 @@ body { font-family: sans-serif; }
           align-items: center;
 }
 
+
 .carousel-cell img {
   display: block;
   max-width: 100%;
   /*max-height: 100%;*/
-  /* dim unselected */
+   /*dim unselected */
   opacity: 0.7;
   -webkit-transform: scale(0.85);
           transform: scale(0.85);
@@ -80,8 +83,8 @@ body { font-family: sans-serif; }
           filter: blur(5px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
-
 }
+
 
 /* brighten selected image */
 .carousel-cell.is-selected img {
@@ -104,7 +107,7 @@ body { font-family: sans-serif; }
   }
 }
 
-/* buttons, no circle */
+/*/** buttons, no circle */
 .flickity-prev-next-button {
   width: 60px;
   height: 60px;
@@ -132,8 +135,8 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:disabled {
   display: grey;
   background-color: red;
-
 }
+
 
 
 
@@ -143,7 +146,6 @@ body { font-family: sans-serif; }
 /** { box-sizing: border-box; }
 
 body { font-family: sans-serif; }*/
-
 
 
 /*.carousel img{
@@ -159,9 +161,9 @@ body { font-family: sans-serif; }*/
   border-radius: 5px;
   counter-increment: gallery-cell;
 }
-
+*/
  /*cell number */
-/*.carousel-cell {
+.carousel-cell {
   display: block;
   text-align: center;
   content: counter(gallery-cell);
@@ -172,15 +174,16 @@ body { font-family: sans-serif; }*/
 }
 
 .carousel-cell img{
-  width: 100%;*/
-/*}*/
+  width: 100%;
+/*}
 
     .name{
-      /*background-color: #DB5461;*/
+      background-color: #DB5461;
       padding:5px;
     }
     .apple{
-      border-radius: 30%; 
+      border-radius: 50%; 
+      float: right;
       width: 5%;
       margin:0 auto; 
     }
@@ -207,31 +210,37 @@ body { font-family: sans-serif; }*/
     /*SOCIAL MEDIA BEGINS HERE:;*/
 
     .socialmedia a{
-      padding: 30px;
-      width: 30px;
+      padding: 20px;
+      border: 10px;
+      width: 20px;
       height: 20px;
-      color:;
+      color:grey;
     }
 
       /*NAVBAR BEGINS*/
     
   	.navbar{
   		list-style-type: none;
-      display: inline-block;
+      display: flex;
       flex-direction:row;
       float: right;
-
     }
+
+    
+
 
     .navbar a {
       text-decoration: none;
-      padding: 20px;
+      margin: 6px;
+      color: black;
     }
       
+    
     /*ALL HEADINGS COLOR*/
   
     .main{
       color:#58A4B0;
+      
     }
 
     /*ABOUT SECTION CSS*/
@@ -240,13 +249,14 @@ body { font-family: sans-serif; }*/
       padding: 10px;
       margin: 5px;
     }
+
    .pic{
       border-radius: 50%;
       float: left;
       padding: 20px;
-      margin :10px;
+      margin :20px;
     }
-    
+
     .myname{
       font-size: 20px;
       color:blue;
@@ -254,52 +264,32 @@ body { font-family: sans-serif; }*/
       
     .title{
       color:blue;
-    
     }
-    
+
+    /*ABOUT SECTION PASSAGE AND INDENTATION*/
+    .pass p{
+      font-size: 17px;
+
+    }
+      
+
   /*LEARN SECTION CSS*/ 
+    
+    
+      
+    
       
   *{
     box-sizing: border-box;
     }
 
-  .column{
+  /*.column{
     float: left;
     width: 33.33%;
     margin: 0;
     padding: 0;
     position: relative;
-  }
- 
-
-
-  /*.row{
-    margin:10px;
   }*/
-
-  /*.column{
-    float: left;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    background-color: #8E9B90;
-  }
-*/
-  /*.row:after {
-
-    display: table;
-    clear: both;
-*/
-  }
-/*
-  .capt{
-    background-color: lightgrey;
-    padding: 10px;*/
-     
-    /*margin: 10px;*/
-  }
-
- 
 
    /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -314,4 +304,45 @@ body { font-family: sans-serif; }*/
         width: 100%;
     }
 } 
+   /*KIDS CORNER CSS*/
+ 
+  ul li{
+    list-style-type: none;
+  }
+
+  li{
+    float: left;
+    float: left;
+    width: 33%;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    border: 3px;
+  }
+
+   figcaption {
+      display: none;
+    }
+    
+    li:hover figure figcaption{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 2%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+    }
+
+  
+/*FOOTER BEGINS HERE*/
+
+
+
+
+ 
    
