@@ -52,20 +52,18 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 body { font-family: sans-serif; }
 
-/*.carousel {
-  background: black;
-}*/
+
 
 .carousel-cell {
   /*width: 50%;*/
   /*height: 200px;*/
   margin:15px;
-  /*padding: 5px;*/
-  /* flex-box, center image in cell */
+  padding: 5px;
+   flex-box, center image in cell;
   background-color:#DCEED1;
   display: -webkit-box;
   display: -webkit-flex;
-  display:         flex;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
@@ -321,7 +319,7 @@ body { font-family: sans-serif; }*/
       }
 
       li {
-      /*float: right;*/
+      float: left;
       width: 33%;
       margin: 0;
       padding: 0;
@@ -334,7 +332,7 @@ body { font-family: sans-serif; }*/
 
       li:hover figure figcaption{
       color:white;
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
       padding-top: 20%;
       display: block;
@@ -347,7 +345,16 @@ body { font-family: sans-serif; }*/
       }
 
 
+                /*FOOTER BEGINS HERE*/
+
+
+  .form{
+    float: left;
+   
+    
+
    /* Responsive layout - makes a two column-layout instead of four columns */
+  }
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
