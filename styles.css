@@ -15,7 +15,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   clip: rect(0 0 0 0);
   overflow: hidden;
     }
-	font-family: 'Great Vibes', cursive;
+	
   font-family: 'Didact Gothic', sans-serif;
     
    
@@ -59,7 +59,7 @@ body { font-family: sans-serif; }
   /*height: 200px;*/
   margin:15px;
   padding: 5px;
-   flex-box, center image in cell;
+   /*flex-box, center image in cell;*/
   background-color:#DCEED1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -86,7 +86,7 @@ body { font-family: sans-serif; }
 
 }
 
-/* brighten selected image */
+ /*brighten selected image */
 .carousel-cell.is-selected img {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -109,6 +109,7 @@ body { font-family: sans-serif; }
 
 /* buttons, no circle */
 .flickity-prev-next-button {
+
   width: 60px;
   height: 60px;
   background: transparent;
@@ -128,8 +129,9 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button.no-svg {
   color: grey;
 
-
 }
+
+
 /* closer to edge */
 .flickity-prev-next-button.previous { left: 0; }
 .flickity-prev-next-button.next { right: 0; }
@@ -137,6 +139,7 @@ body { font-family: sans-serif; }
 .flickity-prev-next-button:disabled {
   display: grey;
   background-color: red;
+  
 
 }
 
@@ -247,10 +250,11 @@ body { font-family: sans-serif; }*/
   
     .main{
       color:#58A4B0;
-      padding: 12px;
-
-
+      padding: 10px;
+      margin: 5px;
     }
+  
+    
 
     /*ABOUT SECTION CSS*/
 
@@ -264,6 +268,7 @@ body { font-family: sans-serif; }*/
     
    .pic{
       border-radius: 50%;
+      width:25%;
       float: left;
       padding: 30px;
       margin :20px;
@@ -304,10 +309,12 @@ body { font-family: sans-serif; }*/
     .box{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
+      border-spacing: inherit;
       padding: 10px;
     }
 
+   
 
                     /*OUR TEAM SECTION ENDS HERE*/
 
@@ -319,7 +326,7 @@ body { font-family: sans-serif; }*/
       }
 
       li {
-      float: left;
+      float:right;
       width: 33%;
       margin: 0;
       padding: 0;
@@ -348,12 +355,14 @@ body { font-family: sans-serif; }*/
                 /*FOOTER BEGINS HERE*/
 
 
+  
   .form{
     flex-wrap: wrap;
     display: flex;  
     justify-content: space-around;
     padding: 10px;
     margin: 5px;
+
 
   }
 
@@ -362,6 +371,8 @@ body { font-family: sans-serif; }*/
    flex-flow: column;
    text-align: center;  
    margin: 10px;
+   background-color: #5D576B;
+   color: white;
   }
   
 
