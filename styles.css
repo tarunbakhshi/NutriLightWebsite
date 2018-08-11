@@ -37,7 +37,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
       
 
     .name{
-    	color: ;
+    	color:#fff;
       font-family: 'Didact Gothic', sans-serif;
     	font-size: 40px;
     	font-weight: inherit;
@@ -247,7 +247,7 @@ body { font-family: sans-serif; }*/
   
     .main{
       color:#58A4B0;
-      /*padding: 15px;*/
+      padding: 12px;
 
 
     }
@@ -349,12 +349,34 @@ body { font-family: sans-serif; }*/
 
 
   .form{
-    float: left;
+    flex-wrap: wrap;
+    display: flex;  
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  .form1{
+   display: flex;
+   flex-flow: column;
+   text-align: center;  
+   margin: 10px;
+  }
+  
+
+
+
+   .copyright{
+    padding-left: 20px;
+    margin: 10px;
+   }
+
    
-    
+   
 
    /* Responsive layout - makes a two column-layout instead of four columns */
-  }
+  
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
