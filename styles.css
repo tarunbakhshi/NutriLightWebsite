@@ -326,12 +326,23 @@ body { font-family: sans-serif; }
         list-style-type: none;
       }
 
-      li {
-      float:right;
-      width: 33%;
-      margin: 0;
-      padding: 0;
-      position: relative;
+      @media (max-width: 600px) {
+        li {
+        width: 33%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        }
+      }
+
+      @media (min-width: 600px) {
+        li {
+        float:right;
+        width: 33%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        }
       }
 
       .fig{
@@ -389,7 +400,7 @@ body { font-family: sans-serif; }
 
    /* Responsive layout - makes a two column-layout instead of four columns */
   
-@media screen and (max-width: 900px) (min-height: 100px)  {
+@media screen and (max-width: 900px) (min-height: 200px)  {
     .column {
         width: 50%;
     }
